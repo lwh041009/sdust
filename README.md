@@ -35,13 +35,6 @@
 pip install requests
 ```
 
-### 下载脚本
-
-```bash
-git clone https://github.com/yourusername/sdust-course-selector.git
-cd sdust-course-selector
-```
-
 ## 使用方法
 
 ### 1. 直接运行
@@ -59,7 +52,7 @@ python sdust_course_selector.py
 1. 密码登录
 学号: 202311100913
 密码: xxxxxx
-[登录] 登录成功! 学号: 202311100913
+[登录] 登录成功! 学号: 2023111*****
 是否保存账号密码到配置文件? (y/n, 默认n): y
 [配置] 已保存到: ./config.json
 ```
@@ -68,9 +61,9 @@ python sdust_course_selector.py
 
 ```
 [启动] 山东科技大学教务系统选课工具
-[配置] 检测到保存的账号: 202311100913
+[配置] 检测到保存的账号: 2023111*****
 是否使用保存的账号登录? (y/n, 默认y):     ← 直接回车
-[登录] 登录成功! 学号: 202311100913
+[登录] 登录成功! 学号: 2023111*****
 ```
 
 ## 菜单功能
@@ -172,7 +165,7 @@ python sdust_course_selector.py
 
 ```json
 {
-  "username": "202311100913",
+  "username": "2023111*****",
   "password": "your_password"
 }
 ```
